@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vercel build",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vercel preview"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.0.0",
